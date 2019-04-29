@@ -1,0 +1,112 @@
+<GUI w="775" h="335">
+
+	<!-- Bobobo drums -->
+ 
+	<!-- Background -->
+
+	<StaticImage x="0" y="0" w="773" h="333" image="bobobo_control_tab.png" transparent="0"  />
+	
+
+
+	<!-- Controls - Bass -->
+	
+	<StaticText x="151" y="84" w="80" h="20" text="BASS" color_text="#E3D481FF" transparent="1"  />
+
+	
+	<Knob param="30" x="177" y="96" image="Perc_stumpy.png" frames="81"  />
+
+	<StaticText x="164" y="166" w="50" h="18" text="Pan" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="31" x="174" y="180" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="164" y="211" w="50" h="18" text="Tune" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="32" x="174" y="225" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="164" y="256" w="50" h="18" text="Mute" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="33" x="174" y="270" image="Perc_knob.png" frames="128"  />
+
+
+	<!-- Controls - Large tenor -->
+	
+	<StaticText x="251" y="84" w="80" h="20" text="LARGE TENOR" color_text="#E3D481FF" transparent="1"  />
+	
+	<Knob param="35" x="277" y="96" image="Perc_stumpy.png" frames="81"  />
+
+	<StaticText x="264" y="166" w="50" h="18" text="Pan" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="36" x="274" y="180" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="264" y="211" w="50" h="18" text="Tune" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="37" x="274" y="225" image="Perc_knob.png" frames="128"  />
+
+
+	<StaticText x="264" y="256" w="50" h="18" text="Mute" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="38" x="274" y="270" image="Perc_knob.png" frames="128"  />
+
+	<!-- Controls - Small tenor -->
+	
+	<StaticText x="351" y="84" w="80" h="20" text="SMALL TENOR" color_text="#E3D481FF" transparent="1"  />
+	
+	<Knob param="40" x="377" y="96" image="Perc_stumpy.png" frames="81"  />
+
+	<StaticText x="364" y="166" w="50" h="18" text="Pan" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="41" x="374" y="180" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="364" y="211" w="50" h="18" text="Tune" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="42" x="374" y="225" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="364" y="256" w="50" h="18" text="Mute" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="43" x="374" y="270" image="Perc_knob.png" frames="128"  />
+
+
+	<!-- Controls - Large treble -->
+	
+	<StaticText x="451" y="84" w="80" h="20" text="LARGE TREBLE" color_text="#E3D481FF" transparent="1"  />
+	
+	<Knob param="45" x="477" y="96" image="Perc_stumpy.png" frames="81"  />
+
+	<StaticText x="464" y="166" w="50" h="18" text="Pan" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="46" x="474" y="180" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="464" y="211" w="50" h="18" text="Tune" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="47" x="474" y="225" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="464" y="256" w="50" h="18" text="Mute" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="48" x="474" y="270" image="Perc_knob.png" frames="128"  />
+
+	<!-- Controls - Small treble -->
+	
+	<StaticText x="551" y="84" w="80" h="20" text="SMALL TREBLE" color_text="#E3D481FF" transparent="1"  />
+	
+	<Knob param="50" x="577" y="96" image="Perc_stumpy.png" frames="81"  />
+
+	<StaticText x="564" y="166" w="50" h="18" text="Pan" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="51" x="574" y="180" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="564" y="211" w="50" h="18" text="Tune" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="52" x="574" y="225" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="564" y="256" w="50" h="18" text="Mute" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="53" x="574" y="270" image="Perc_knob.png" frames="128"  />
+
+
+	<!-- Controls - All -->
+
+	<StaticText x="654" y="211" w="70" h="18" text="Tune Spread" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="55" x="674" y="225" image="Perc_knob.png" frames="128"  />
+
+</GUI>                                                                                                                                       

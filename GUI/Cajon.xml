@@ -1,0 +1,64 @@
+<GUI w="775" h="335">
+
+	<!-- Cajon -->
+ 
+	<!-- Background -->
+
+	<StaticImage x="0" y="0" w="773" h="333" image="cajon_control_tab.png" transparent="0"  />
+	
+
+
+	<!-- Controls - Mics -->
+	
+	<StaticText x="181" y="87" w="80" h="20" text="MIX" color_text="#E3D481FF" transparent="1"  />
+
+	<StaticText x="151" y="113" w="80" h="20" text="Rear mic" color_text="#E3D481FF" transparent="1"  />
+
+	
+	<Knob param="70" x="177" y="128" image="Perc_stumpy.png" frames="81"  />
+
+
+	<StaticText x="211" y="113" w="80" h="20" text="Front mic" color_text="#E3D481FF" transparent="1"  />
+
+	
+	<Knob param="71" x="237" y="128" image="Perc_stumpy.png" frames="81"  />
+
+
+	<StaticText x="314" y="103" w="50" h="18" text="Tuning" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="72" x="324" y="118" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="364" y="103" w="50" h="18" text="Contrast" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="73" x="374" y="118" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="414" y="103" w="50" h="18" text="Mute" color_text="#E3D481FF" transparent="1"   />
+	
+	<Knob param="74" x="424" y="118" image="Perc_knob.png" frames="128"  />
+
+	<StaticText x="521" y="87" w="80" h="20" text="FINGER ROLLS" color_text="#E3D481FF" transparent="1"  />
+
+	<StaticText x="491" y="100" w="80" h="20" text="Location" color_text="#E3D481FF" transparent="1"  />
+
+	<StaticText x="491" y="113" w="80" h="20" text="(CC1)" color_text="#E3D481FF" transparent="1"  />
+
+
+	
+	<Knob param="1" x="517" y="128" image="Perc_stumpy.png" frames="81"  />
+
+
+	<StaticText x="546" y="100" w="90" h="20" text="Dynamics" color_text="#E3D481FF" transparent="1"  />
+
+	<StaticText x="546" y="113" w="90" h="20" text="(CC11)" color_text="#E3D481FF" transparent="1"  />
+
+	
+	<Knob param="11" x="577" y="128" image="Perc_stumpy.png" frames="81"  />
+
+
+
+
+
+
+
+
+</GUI>                                                                                                                                       
