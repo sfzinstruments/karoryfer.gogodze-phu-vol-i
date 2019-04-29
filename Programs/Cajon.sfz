@@ -1,0 +1,110 @@
+<control>
+label_cc7=Master vol
+label_cc10=Master pan
+
+label_cc1=Finger roll location (mod)
+label_cc11=Finger roll volume (exp)
+
+label_cc70=Rear vol
+label_cc71=Front vol
+
+label_cc72=Tuning
+label_cc73=Contrast
+label_cc74=Mute
+
+set_cc7=100
+set_cc10=63
+
+set_cc11=70
+
+set_cc70=100
+set_cc71=100
+set_cc72=63
+
+<global>
+loop_mode=one_shot
+off_mode=normal
+pitch_keytrack=0
+tune=-1200 //Everything is tuned down an octave, then tuned back up with the tuning parameter
+tune_oncc72=2400
+amplitude_oncc7=100
+ampeg_attack=0.001
+ampeg_decay=0.6
+ampeg_sustain=100
+
+<master>
+amplitude_oncc70=100
+offset_cc74=800
+ampeg_sustain_oncc74=-100
+#include "mappings/cajon_hits_dyn.sfz"
+#include "mappings/cajon_sides_dyn.sfz"
+
+<master>
+amplitude_oncc71=100
+offset_cc74=800
+ampeg_sustain_oncc74=-100
+#include "mappings/cajon_hits_cnd.sfz"
+#include "mappings/cajon_sides_cnd.sfz"
+
+<master>
+key=57
+volume=5
+amp_veltrack=0
+amplitude_oncc70=100
+amplitude_oncc11=100
+ampeg_sustain=0
+ampeg_decay=0.25
+#include "mappings/cajon_roll_start_dyn.sfz"
+
+<master>
+key=57
+volume=5
+amp_veltrack=0
+loop_mode=loop_continuous
+amplitude_oncc70=100
+amplitude_oncc11=100
+ampeg_attack=0.25
+ampeg_release=0.1
+#include "mappings/cajon_roll_loop_dyn.sfz"
+
+<master>
+trigger=release
+rt_decay=0
+key=57
+amp_veltrack=0
+volume=-10
+amplitude_oncc70=100
+amplitude_oncc11=100
+#include "mappings/cajon_roll_end_dyn.sfz"
+
+<master>
+key=57
+volume=5
+amp_veltrack=0
+amplitude_oncc71=100
+amplitude_oncc11=100
+ampeg_sustain=0
+ampeg_decay=0.25
+#include "mappings/cajon_roll_start_cnd.sfz"
+
+<master>
+key=57
+volume=5
+amp_veltrack=0
+loop_mode=loop_continuous
+amplitude_oncc71=100
+amplitude_oncc11=100
+ampeg_attack=0.25
+ampeg_release=0.1
+#include "mappings/cajon_roll_loop_cnd.sfz"
+
+
+<master>
+trigger=release
+rt_decay=0
+key=57
+amp_veltrack=0
+volume=-10
+amplitude_oncc71=100
+amplitude_oncc11=100
+#include "mappings/cajon_roll_end_cnd.sfz"

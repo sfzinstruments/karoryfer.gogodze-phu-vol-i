@@ -1,0 +1,112 @@
+<control>
+label_cc7=Master vol
+label_cc10=Master pan (disabled)
+
+label_cc30=Bobobo bass vol
+label_cc31=Bobobo bass pan
+label_cc32=Bobobo bass tune
+label_cc33=Bobobo bass mute
+
+label_cc35=Bobobo L tenor vol
+label_cc36=Bobobo L tenor pan
+label_cc37=Bobobo L tenor tune
+label_cc38=Bobobo L tenor mute
+
+label_cc40=Bobobo S tenor vol
+label_cc41=Bobobo S tenor pan
+label_cc42=Bobobo S tenor tune
+label_cc43=Bobobo S tenor mute
+
+label_cc45=Bobobo L treble vol
+label_cc46=Bobobo L treble pan
+label_cc47=Bobobo L treble tune
+label_cc48=Bobobo L treble mute
+
+label_cc50=Bobobo S treble vol
+label_cc51=Bobobo S treble pan
+label_cc52=Bobobo S treble tune
+label_cc53=Bobobo S treble mute
+
+label_cc55=Bobobo all tune spread
+
+set_cc7=100
+set_cc10=63
+
+set_cc30=100
+set_cc31=63
+set_cc32=63
+
+set_cc35=100
+set_cc36=33
+set_cc37=63
+
+set_cc40=100
+set_cc41=0
+set_cc42=63
+
+set_cc45=100
+set_cc46=93
+set_cc47=63
+
+set_cc50=100
+set_cc51=127
+set_cc52=63
+
+<global>
+loop_mode=one_shot
+off_mode=normal
+tune=-1200 //Everything is tuned down an octave, then tuned back up with its own tune param
+pan=-100 //Similar for pan - hard left, brought to proper position with param
+pan_oncc10=0 //Disable master pan
+amplitude_oncc7=100
+ampeg_attack=0.001
+ampeg_decay=0.7
+ampeg_sustain=100
+
+<master>
+amplitude_cc30=100
+pan_cc31=200
+tune_cc32=2400
+tune_cc55=-500
+offset_cc33=3000
+ampeg_sustain_oncc33=-100
+#include "mappings/bobobo_bass.sfz"
+
+<master>
+amplitude_cc35=100
+pan_cc36=200
+tune_cc37=2400
+offset_cc38=1500
+ampeg_sustain_oncc38=-100
+tune_cc55=-250
+#include "mappings/bobobo_tenor_l_1.sfz"
+#include "mappings/bobobo_tenor_l_2.sfz"
+
+<master>
+amplitude_cc40=100
+pan_cc41=200
+tune_cc42=2400
+offset_cc43=1500
+ampeg_sustain_oncc43=-100
+#include "mappings/bobobo_tenor_s_1.sfz"
+#include "mappings/bobobo_tenor_s_2.sfz"
+
+<master>
+amplitude_cc45=100
+pan_cc46=200
+tune_cc47=2400
+offset_cc48=2000
+ampeg_sustain_oncc48=-100
+tune_cc55=250
+#include "mappings/bobobo_treble_l_1.sfz"
+#include "mappings/bobobo_treble_l_2.sfz"
+
+<master>
+amplitude_cc50=100
+pan_cc51=200
+tune_cc52=2400
+offset_cc53=2000
+ampeg_sustain_oncc53=-100
+tune_cc55=500
+#include "mappings/bobobo_treble_s_1.sfz"
+#include "mappings/bobobo_treble_s_2.sfz"
